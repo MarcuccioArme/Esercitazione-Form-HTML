@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Esercitazione 2</title>
+</head>
+<body>
+    
+    <h1>ESERCITAZIONE 2</h1>
+    <div class="form">
+        <table>
+            <tr>
+                <td>Seleziona un file:</td>
+                <td><input type="file" name="File" size="15"></td>
+            </tr>
+            <tr>
+                <td>Text:</td>
+                <td><input type="text" name="Testo" size="30" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td>Text Area:</td>
+                <td><textarea name="Text Area" cols="30" rows="10">Scrivi qui il testo...</textarea></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="Password" size="20" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td>Hidden:</td>
+                <td><input type="hidden" name="UrlDiProvenienza" value="www.panettiptagora.edu.it"></td>
+            </tr>
+            <tr>
+                <td>CheckBox:</td>
+                <td>
+                    <input type="checkbox" name="CB1" value="Value 1"> Value 1<br>
+                    <input type="checkbox" name="CB2" value="value 2"> Value 2<br>
+                    <input type="checkbox" name="CB3" value="Value 3"> Value 3
+                </td>
+            </tr>
+            <tr>
+                <td>Radio:</td>
+                <td> 
+                    <input type="radio" name="R1" value="Value 1"> Value 1<br>
+                    <input type="radio" name="R1" value="Value 2"> Value 2<br>
+                    <input type="radio" name="R1" value="Value 3"> Value 3
+                </td>
+            </tr>
+            <tr>
+                <td>Select Semplice:</td>
+                <td> 
+                    <select name="Città">
+                        <option name="V1" value="Value 1" selected>Value 1</option>
+                        <option name="V2" value="Value 2">Value 2</option>
+                        <option name="V3" value="Value 3">Value 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Multipla:</td>
+                <td> 
+                    <select multiple name="Città" style="width: 100px; height: 70px;">
+                        <option name="V1" value="Value 1" selected>Value 1</option>
+                        <option name="V2" value="Value 2">Value 2</option>
+                        <option name="V3" value="Value 3">Value 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: none;">
+                    <input type="submit" name="Invia query" value="Invia query">
+                    <input type="reset" name="Reimposta" value="Reimposta">
+                </td>
+                <td style="border: none;"></td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.form {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.form tr td {
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form select {
+    width: 100px;
+    height: 70px;
+    text-align: center;
+}
+
+.bottoni {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.bottoni input {
+    margin: 3px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background 0.5s;
+}
+.bottoni input:hover {
+    background-color: lightgray;
+}

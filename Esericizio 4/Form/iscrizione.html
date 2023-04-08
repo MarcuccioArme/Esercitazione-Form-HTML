@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Esercitazione 4</title>
+</head>
+<body>
+    
+    <h1>Modulo di iscrizione</h1>
+    <div class="form">
+        <table>
+            <tr>
+                <td>Cognome</td>
+                <td><input type="text" name="Cognome" size="30" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td>Nome</td>
+                <td><input type="text" name="Nome" size="30" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td>Data di nascita</td>
+                <td>
+                    <table style="text-align: center;">
+                        <tr>
+                            <td>Giorno</td>
+                            <td>Mese</td>
+                            <td>Anno</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="Giorno" size="5" maxlength="2"></td>
+                            <td><input type="text" name="Mese" size="15" maxlength="12"></td>
+                            <td><input type="text" name="Anno" size="5" maxlength="4"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Sesso</td>
+                <td>
+                    M <input type="radio" name="R1" value="M" style="margin-right: 15px;">
+                    F <input type="radio" name="R1" value="F">
+                </td>
+            </tr>
+            <tr>
+                <td>Telefono</td>
+                <td><input type="text" name="Telefono" size="15" maxlength="15"></td>
+            </tr>
+            <tr>
+                <td>Provincia</td>
+                <td>
+                    <select name="Provincia">
+                        <option name="Bari" value="BA" selected>BA</option>
+                        <option name="Torino" value="TO">TO</option>
+                        <option name="Roma" value="RO">RO</option>
+                        <option name="Firenze" value="FI">FI</option>
+                        <option name="Aosta" value="AO">AO</option>
+                        <option name="Genova" value="GE">GE</option>
+                        <option name="Milano" value="MI">MI</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Secondo quali modalità si desidera ricevere maggiori informazioni?</td>
+            </tr>
+            <tr>
+                <td>(Sono ammesse <br>risposte multiple)</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Posta Ordinaria</td>
+                            <td><input type="checkbox" name="CB1" value="Posta Ordinaria"></td>
+                        </tr>
+                        <tr>
+                            <td>Posta Elettronica</td>
+                            <td><input type="checkbox" name="CB2" value="Posta Elettronica"></td>
+                        </tr>
+                        <tr>
+                            <td>Telefono</td>
+                            <td><input type="checkbox" name="CB3" value="Telefono"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Note (Specificare eventuali richieste particolari)</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="Note" cols="40" rows="15">Scrivi qui...</textarea>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="bottoni">
+        <input type="submit" name="Invia" value="Invia">
+        <input type="reset" name="Cancella" value="Cancella">
+    </div>
+
+</body>
+</html>

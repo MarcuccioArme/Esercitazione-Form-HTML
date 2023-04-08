@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Esercitazione 1</title>
+</head>
+<body>
+    
+    <h1>ESERCITAZIONE 1</h1>
+    <div class="form">
+        <table>
+            <tr>
+                <td>Nome</td>
+                <td><input type="text" name="Nome" size="30" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td>Cognome</td>
+                <td><input type="text" name="Cognome" size="30" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="text" name="Email" size="30" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td>Città</td>
+                <td>
+                    <select multiple name="Città">
+                        <option name="Bari" value="BA" selected>Bari</option>
+                        <option name="Torino" value="TO">Torino</option>
+                        <option name="Roma" value="RO">Roma</option>
+                        <option name="Firenze" value="FI">Firenze</option>
+                        <option name="Aosta" value="AO">Aosta</option>
+                        <option name="Genova" value="GE">Genova</option>
+                        <option name="Milano" value="MI">Milano</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobby</td>
+                <td>
+                    <input type="checkbox" name="CB1" value="Musica"> Musica<br>
+                    <input type="checkbox" name="CB2" value="Cinema"> Cinema<br>
+                    <input type="checkbox" name="CB3" value="Teatro"> Teatro<br>
+                    <input type="checkbox" name="CB4" value="Poesia"> Poesia
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 250px;">Vuoi iscriverti alla nostra newsletter?</td>
+                <td> 
+                    <input type="radio" name="R1" value="Si"> Si
+                    <input type="radio" name="R1" value="No" style="margin-left: 30px;"> No
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="bottoni">
+        <input type="submit" name="Invia" value="Invia">
+        <input type="reset" name="Cancella" value="Cancella">
+    </div>
+
+</body>
+</html>
